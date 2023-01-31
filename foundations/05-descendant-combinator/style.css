@@ -1,0 +1,12 @@
+/*CSS for descenddant combinator*/
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div p {
+    color:rgb(152, 227, 115);
+    background-color: #000000;
+    font-size: 20px;
+    text-align:center;
+}
