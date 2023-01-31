@@ -1,0 +1,16 @@
+/*CSS for grouping selectors exercise*/
+
+.button-1,
+.button-2 {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.button-1 {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.button-2 {
+    background-color: rgb(168, 226, 214);
+}
