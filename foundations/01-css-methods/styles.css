@@ -1,0 +1,11 @@
+/*CSS styles for 01-css-methods*/
+
+div {
+    margin: 15px 5px 30px 5px;
+    background-color: red;
+    font-size:3.25em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
