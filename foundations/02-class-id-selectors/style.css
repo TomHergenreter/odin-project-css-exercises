@@ -1,0 +1,20 @@
+/*CSS styles for class id selectors exercise*/
+
+.odd-element {
+    background-color: #f38181;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.cool {
+    font-size: 24px;
+}
+
+#element-2 {
+    color: rgb(47, 47, 214);
+    font-size: 36px;
+}
+
+#element-4 {
+    background-color: #a0f57e;
+    font-weight: bold;
+}
