@@ -2,27 +2,73 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+  /* solution */
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
 }
 
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
+  /* solution */
+  padding: 0px 16px;
+  display:  flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+/* solution */
+.content {
+  display: flex;
+  flex: 1;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
-}
+  /* solution */
+  padding: 20px;
+  flex: 1 0 auto;
+  }
+
+  /* Solution */
+  .card-container { 
+    padding: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  /* solution */
+  box-sizing: border-box;
+  width: 300px;
+  padding: 10px;
 }
